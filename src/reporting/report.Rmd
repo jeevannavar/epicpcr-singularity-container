@@ -1,0 +1,158 @@
+---
+title: "Report of epicPCR experiment, May 28 2021"
+params:
+   rmd: "report.Rmd"
+output: md_document
+---
+
+## Samples
+
+|Sample name|Sample type|Mock status|Magnetic status|Phylotype|
+| :--- | :--- | :--- | :--- | :--- |
+|BiolstdMockMag16S|Biological standard|Mocks|Magnetic selection|16S|
+|BiolstdMockMag18S|Biological standard|Mocks|Magnetic selection|18S|
+|BiolstdMockNomag16S|Biological standard|Mocks|No magnetic selection|16S|
+|BiolstdMockNomag18S|Biological standard|Mocks|No magnetic selection|18S|
+|BiolstdNomockMag16S|Biological standard|No mocks|Magnetic selection|16S|
+|BiolstdNomockMag18S|Biological standard|No mocks|Magnetic selection|18S|
+|BiolstdNomockNomag16S|Biological standard|No mocks|No magnetic selection|16S|
+|BiolstdNomockNomag18S|Biological standard|No mocks|No magnetic selection|18S|
+|BiolstdWWMockMag16S|WW + Biological standard|Mocks|Magnetic selection|16S|
+|BiolstdWWMockMag18S|WW + Biological standard|Mocks|Magnetic selection|18S|
+|BiolstdWWMockNomag16S|WW + Biological standard|Mocks|No magnetic selection|16S|
+|BiolstdWWMockNomag18S|WW + Biological standard|Mocks|No magnetic selection|18S|
+|BiolstdWWNomockMag16S|WW + Biological standard|No mocks|Magnetic selection|16S|
+|BiolstdWWNomockMag18S|WW + Biological standard|No mocks|Magnetic selection|18S|
+|BiolstdWWNomockNomag16S|WW + Biological standard|No mocks|No magnetic selection|16S|
+|BiolstdWWNomockNomag18S|WW + Biological standard|No mocks|No magnetic selection|18S|
+|WWMockMag16S|WW|Mocks|Magnetic selection|16S|
+|WWMockMag18S|WW|Mocks|Magnetic selection|18S|
+|WWMockNomag16S|WW|Mocks|No magnetic selection|16S|
+|WWMockNomag18S|WW|Mocks|No magnetic selection|18S|
+|WWNomockMag16S|WW|No mocks|Magnetic selection|16S|
+|WWNomockMag18S|WW|No mocks|Magnetic selection|18S|
+|WWNomockNomag16S|WW|No mocks|No magnetic selection|16S|
+|WWNomockNomag18S|WW|No mocks|No magnetic selection|18S|
+
+
+## Barcode distributions
+
+<table>
+  <tr>
+    <td>Barcode distribution</td>
+    <td>Barcode taxonomy distribution</td>
+  </tr>
+  <tr>
+    <td valign="top"><img src="../figures/bc_distribution.png"></td>
+    <td valign="top"><img src="../figures/bc_tax_distribution.png"></td>
+  </tr>
+ </table>
+
+## Distribution of connections
+
+<td valign="top"><img src="../figures/connection_distribution.png" width=500></td>
+
+
+## Abundance profiles
+
+The abundance columns are:
+
+- BiolstdMockMag
+- BiolstdWWMockMag
+- WWMockMag
+- BiolstdMockNomag
+- BiolstdWWMockNomag
+- WWMockNomag
+- BiolstdNomockMag
+- BiolstdWWNomockMag
+- WWNomockMag
+- BiolstdNomockNomag
+- BiolstdWWNomockNomag
+- WWNomockNomag
+
+<td valign="top"><img src="../figures/bact_abunds.png" ></td>
+<td valign="top"><img src="../figures/euk_abunds.png" ></td>
+
+
+## Tanglegram of mockmag
+
+The abundance columns are:
+
+- BiolstdMockMag
+- BiolstdWWMockMag
+- WWMockMag
+
+Non-normalised connections
+<td valign="top"><img src="../figures/mockmag.png" ></td>
+
+Normalised connections
+<td valign="top"><img src="../figures/mockmag_normalised.png" ></td>
+
+
+## Tanglegram of mocknomag
+
+The abundance columns are:
+
+- BiolstdMockNomag
+- BiolstdWWMockNomag
+- WWMockNomag
+
+Non-normalised connections
+<td valign="top"><img src="../figures/mocknomag.png" ></td>
+
+Normalised connections
+<td valign="top"><img src="../figures/mocknomag_normalised.png" ></td>
+
+
+## Tanglegram of nomockmag
+
+The abundance columns are:
+
+- BiolstdNomockMag
+- BiolstdWWNomockMag
+- WWNomockMag
+
+Non-normalised connections
+<td valign="top"><img src="../figures/nomockmag.png" ></td>
+
+Normalised connections
+<td valign="top"><img src="../figures/nomockmag_normalised.png" ></td>
+
+
+## Tanglegram of nomocknomag
+
+The abundance columns are:
+
+- BiolstdNomockNomag
+- BiolstdWWNomockNomag
+- WWNomockNomag
+
+Non-normalised connections
+<td valign="top"><img src="../figures/nomocknomag.png" ></td>
+
+Normalised connections
+<td valign="top"><img src="../figures/nomocknomag_normalised.png" ></td>
+
+
+## Standard abundances
+
+<table>
+  <tr>
+    <td>Absolute mock abundances</td>
+    <td>Proportional mock abundances</td>
+  </tr>
+  <tr>
+    <td valign="top"><img src="../figures/mock_abundances.png"></td>
+    <td valign="top"><img src="../figures/mock_proportions.png"></td>
+  </tr>
+ </table>
+
+Absolute biological standard abundances
+<td valign="top"><img src="../figures/biol_std_abundances.png" ></td>
+
+
+## OTU sampling frequency
+
+<td valign="top"><img src="../figures/otu_sampling_frequency.png" ></td>
+
+
