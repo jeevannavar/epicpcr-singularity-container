@@ -1,0 +1,22 @@
+# Install Singularity
+https://sylabs.io/guides/3.8/admin-guide/installation.html
+
+# Clone the epicpcr repository to get the snakemake file / Download snakemake file (the pipeline)
+git clone https://github.com/manutamminen/epicpcr_6.git
+OR TEMPORARILY
+git clone https://github.com/jeevannavar/epicpcr-singularity-container.git
+cd epicpcr_6
+    
+# Run the setup script
+./setup.sh
+
+# Run the snakemake pipeline
+singularity run container.sif snakemake --cores all report
+
+
+## Extra
+## If you would like to shell into the singularity container and then run snakemake from inside there,
+## you will have to do the following
+singularity shell container.sif
+## And then at th singularity prompt (Singularity>):
+/usr/local/mambaforge/envs/snakemake/bin/snakemake
