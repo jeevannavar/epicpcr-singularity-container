@@ -10,5 +10,5 @@ mv epic6 raw
 cd ..
 
 # Download the singularity container
-singularity pull library://jeevannavar/default/epicpcr-singularity-container:ver1
-mv epicpcr-singularity-container_ver1.sif container.sif
+singularity pull library://jeevannavar/default/epicpcr-singularity-container
+mv epicpcr-singularity-container.sif container.sif

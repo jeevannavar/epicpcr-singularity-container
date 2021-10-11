@@ -3,10 +3,17 @@ https://sylabs.io/guides/3.8/admin-guide/installation.html
 
 # Clone the epicpcr repository to get the snakemake file / Download snakemake file (the pipeline)
 git clone https://github.com/manutamminen/epicpcr_6.git
-OR TEMPORARILY
+# OR TEMPORARILY
 git clone https://github.com/jeevannavar/epicpcr-singularity-container.git
-cd epicpcr_6
-    
+
+# Move into folder
+cd epicpcr_6 
+# OR BASED ON WHAT REPO YOU CLONED
+cd epicpcr-singularity-container
+
+# Make the setup script an executable
+chmod +x setup.sh
+
 # Run the setup script
 ./setup.sh
 
